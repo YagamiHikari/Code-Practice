@@ -1,0 +1,13 @@
+##python中有专门的小写变大写的函数：upper()
+##大写变小写：lower()
+
+
+class Solution:
+    """
+    @param character: a character
+    @return: a character
+    """
+    def lowercaseToUppercase(self, character):
+        # write your code here
+        return character.upper()
+      
