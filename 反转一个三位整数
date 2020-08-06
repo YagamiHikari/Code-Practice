@@ -1,0 +1,15 @@
+class Solution:
+    """
+    @param number: A 3-digit number.
+    @return: Reversed number.
+    """
+    def reverseInteger(self, number):
+        # write your code here
+        
+        
+        n1 = int((number % 10) * 100)
+        n2 = int((number / 10) % 10) * 10
+        n3 = int((number / 100) % 10)
+        
+        return n1+n2+n3
+      
